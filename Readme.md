@@ -1,3 +1,4 @@
-# Project Development
+# Text2Image Project Development
 
-### Status: In Progress
+### Status: Completed 
+(will soon update readme)

@@ -21,11 +21,16 @@ export default function Container({prompt,response, statusCode}){
     
     return(
         <>
-            <Card sx={{ maxWidth: 700 }}>
+            <Card sx={{ maxWidth: 900 }}>
       <CardMedia
-        sx={{ height: 350 }}
+        sx={{
+          height: 600,
+          width: '100%',
+          objectFit: 'contain',
+        }}
         image={imageSrc}
-        title="green iguana"
+        title="Input"
+        
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
